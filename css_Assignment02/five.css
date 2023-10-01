@@ -1,0 +1,10 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    margin-left: 200px;
+}

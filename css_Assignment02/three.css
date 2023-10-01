@@ -1,0 +1,44 @@
+.nav{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#para1{
+    border-bottom:2px solid white;
+}
+#para2{
+    border-bottom:2px solid white;
+}
+#para3{
+    border-bottom:2px solid white;
+}
+#para4{
+    border-bottom:2px solid white;
+}
+#para5{
+    border-bottom:2px solid white;
+}
+#para1:hover{
+   color:rgb(158, 64, 64) ;
+   border-bottom: dotted;
+   
+}
+#para2:hover{
+    color:blueviolet;
+    border-bottom: dotted;
+}
+#para3:hover{
+    color:aquamarine;
+    border-bottom: dotted;
+}
+#para4:hover{
+    color:aqua;
+    border-bottom: dotted;
+}
+#para5:hover{
+    color:red;
+    
+    border-bottom: dotted;
+}
