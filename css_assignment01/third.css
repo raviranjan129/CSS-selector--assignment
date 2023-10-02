@@ -1,0 +1,11 @@
+.username{
+    background-color: rgb(164, 199, 199);
+}
+.email{
+    color: white;
+    background-color: blueviolet;
+}
+.password{
+    background-color: aquamarine;
+    opacity: 0.5;
+}
