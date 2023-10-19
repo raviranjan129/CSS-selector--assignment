@@ -1,0 +1,194 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.indian-railway{
+    width: 1460px;
+    height: 1100px;
+    display: flex;
+   
+   
+}
+.left{
+    height:800px;
+    width: 50%;
+}
+.nav{
+    height: 200px;
+   
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    height:81.11px;
+    width: 168.31px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-img1{
+    height: 80px;
+    width:65px;
+    background-image: url(https://seeklogo.com/images/I/irctc-india-logo-5A5DFE2FB1-seeklogo.com.png);
+background-size: cover;
+}
+.logo-img2{
+    background-image: url(https://www.indianrail.gov.in/enquiry/images/rail.gif);
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    margin-top: 20px;
+}
+.information{
+    margin-top: 10px;
+   height: 81.88px; 
+   width: 321.81px;
+   display:inline-block;
+
+  
+}
+.info{
+    display: flex;
+   
+}
+.info p{
+    margin-left: 20px;
+}
+#button1{
+    margin-top: 10px;
+  
+   
+}
+#button1 button{
+    margin-left: 12px;
+    padding: 2px;
+}
+.hero{
+    height: 250px;
+    margin-left: 70px;
+}
+.hero p{
+    font-size: 25px;
+}
+#one{
+    color: #16bc24;
+}
+#two{
+    color: rgb(230, 159, 19);
+}
+#three{
+    color: rgb(65, 65, 174);
+}
+
+.btn{
+    margin-top: 70px;
+   
+}
+.btn button{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.right{
+    width:696px ;
+   height:1036px ;
+   
+}
+
+.img1{
+    height: 76vh;
+    width:75vw;
+    background-image: url(https://www.livemint.com/lm-img/img/2023/06/19/600x338/ANI-20230529138-0_1685461514722_1687147713893.jpg);
+    background-size: cover;
+   
+}
+.img2{
+    height:76vh ;
+    width: 75vw;
+    background-image: url(https://media.istockphoto.com/id/1346275316/photo/train-at-nine-arch-bridge-sri-lanka.jpg?s=612x612&w=0&k=20&c=5Up2Yxv3Olepr4TvRIVTmP_PED56PFuICOoPzz9lAbc=);
+    background-size: cover;
+}
+.travel_info{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 618.47px;
+    height: 116.6px;
+    top: 518.1px;
+    margin-left: 101.39px;
+    border-radius: 5px;
+}
+.train-info{
+    display: flex;
+}
+
+.from-select{
+    display:flex;
+}
+
+.to-select{
+    display: flex;
+}
+#to-fro{
+    border: 0.1px solid rgb(240, 239, 239);
+    height: 40.31px;
+    width: 40.38px;
+    margin-top:35.18px;
+    border-radius: 50%;
+   font-size: 30px;
+   padding-left: 2px;
+  
+}
+.icons{
+    height: 32.44px;
+    width: 32.44px;
+    margin-top:10px ;
+}
+.date_info{
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 618.47px;
+    height: 116.6px;
+    top: 518.1px;
+    margin-left: 101.39px;
+}
+.date-select{
+    display: flex;
+}
+.calandar{
+    display: flex;
+}
+.seat-select{
+    display: flex;
+}
+.class-select{
+    display: flex;
+    ;
+}
+.class-selector{
+  display: flex;  
+}
+.seat-info{
+    display: flex;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width: 618.47px;
+    height: 81.11px;
+    margin-left: 101.39px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(109, 230, 109);
+    color: white;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.button i{
+    margin-left: 20px;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#202842;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 962px;
+    height: 427px;
+    margin-top: 25px;
+    padding: 32px 48px 32px 48px;
+    background-color: rgb(210, 207, 207);
+    gap: 32px;
+    left: -8px;
+    display: flex;
+}
+.free-plan{
+    width: 262px;
+    height: 363px;
+    border-radius: 8px;
+   padding: 32px;
+   gap: 32px;
+  background-color: #ffffff;
+  
+
+}
+
+.button1{
+width: 156px;
+height: 38px;
+border-radius: 50px;
+padding: 8px 24px 8px 24px;
+gap: 10px;
+background-color: #202842;
+color: white;
+margin-top: 40px;
+}
+.button-2{
+    width: 156px;
+    height: 38px;
+    border-radius: 50px;
+    padding: 8px 24px 8px 24px;
+    gap: 10px;
+    background-color: white;
+    color: #202842;
+    margin-top: 40px;
+    }
+    .button-3{
+        width: 156px;
+        height: 38px;
+        border-radius: 50px;
+        padding: 8px 24px 8px 24px;
+        gap: 10px;
+        background-color: #202842;
+        color: white;
+        margin-top: 40px;  
+    }
+.basic-plan{
+    width: 262px;
+    height: 363px;
+    border-radius: 8px;
+   padding: 32px;
+   gap: 32px;
+  color: #ffffff; 
+  background-color:#202842;
+}
+.pro-plan{
+    width: 262px;
+    height: 363px;
+    border-radius: 8px;
+   padding: 32px;
+   gap: 32px;
+  background-color: #ffffff; 
+}
