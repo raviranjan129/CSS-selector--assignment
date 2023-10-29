@@ -1,0 +1,52 @@
+
+
+ a{
+    color: red;
+}
+.first-h2{
+  
+   visibility: hidden;
+  position: relative;
+}
+.first-h2::after{
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "Changed text";
+    background-color: grey;
+}
+.first-p{
+    color: red;
+}
+/* a[href] {
+    text-decoration: none;
+    color: red;
+} */
+.active{
+    color: green;
+    text-decoration: underline;
+}
+a[target="_self"]{
+    background-color: yellow;
+    
+}
+.last-p::after{
+content: "...";
+}
+ul{
+    list-style: none;
+}
+ul li::before{
+    content: "\2022";
+    color: red;
+    width: 1em;
+    margin-left: -1em;
+    font-weight: bold;
+    display: inline-block;
+   
+}
+.second-p span{
+    color: red;
+    font-size: 30px;
+}
